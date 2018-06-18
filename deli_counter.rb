@@ -6,7 +6,7 @@ def line(queue)
   if queue.length < 1
     puts "The line is currently empty."
   else
-    queue.each.with_index(1) do |name, index| 
+    queue.each.with_index(1) do |name, index|
       array.push("#{index}. #{name}")
     end
     puts "The line is currently #{array.join(" ")}"
