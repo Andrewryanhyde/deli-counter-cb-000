@@ -19,9 +19,9 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(array)
-  if array.empty? 
+  if array.empty?
     puts "There is nobody waiting to be served!"
-  else 
+  else
     puts "Currently serving #{array[0]}."
    array.shift
  end
