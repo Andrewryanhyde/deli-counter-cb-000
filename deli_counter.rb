@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 
-def line(queue, position, name)
+def line(queue)
   if queue.length < 1
     puts "The line is currently empty."
   else
