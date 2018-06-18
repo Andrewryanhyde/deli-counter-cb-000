@@ -13,7 +13,7 @@ def line(queue)
   end
 end
 
-def take_a_number(queue, name)
+def take_a_number(katz_deli, name)
   queue.push(name)
   position = queue.find_index(name)
   puts "#{name}, your position is #{position}"
