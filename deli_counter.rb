@@ -10,4 +10,6 @@ end
 
 def take_a_number(queue, name)
   queue.push(name)
+  index = queue.find_index(name)
+  puts "#{name}, your position is #{index}"
 end
