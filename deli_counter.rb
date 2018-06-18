@@ -6,7 +6,7 @@ def line(queue)
     puts "The line is currently empty."
   else
     queue.each do |customer|
-    puts "The line is currently: #{position}. #{name}"
+    puts customer
     end
   end
 end
