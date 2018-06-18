@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(queue, position, name)
-  if queue.length === 0
+  if queue.length < 1
     puts "The line is currently empty."
   else
     queue.each do |customer|
