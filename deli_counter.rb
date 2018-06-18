@@ -14,7 +14,9 @@ def line(queue)
 end
 
 def take_a_number(katz_deli, name)
-  queue.push(name)
-  position = queue.find_index(name)
-  puts "#{name}, your position is #{position}"
+  katz_deli.push(name)
+  puts "Welcome #{name}, you are number #{katz_deli.length} in line."
 end
+
+def now_serving
+  puts ""
