@@ -7,3 +7,7 @@ def line(queue)
     puts queue
   end
 end
+
+def take_a_number(queue, name)
+  queue.push(name)
+end
